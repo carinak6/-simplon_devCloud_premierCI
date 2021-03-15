@@ -3,7 +3,7 @@ on:
   - push
 jobs:
   FirstJob:
-    run-out: ubuntu-latest
+    run-on: ubuntu-latest
     steps:
-      - name: first step
+      - name: premier etape
         run: echo "Hola"
